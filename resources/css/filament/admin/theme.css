@@ -1,0 +1,31 @@
+@import '/vendor/filament/filament/resources/css/theme.css';
+
+@config 'tailwind.config.js';
+
+@layer components {
+    .fi-sidebar {
+        @apply !bg-[#2A8478] dark:!bg-[#2A8478];
+    }
+}
+.hover\:bg-gray-100:hover {
+    --tw-bg-opacity: 1 !important;;
+    background-color: rgba(197, 197, 197, 0.64) !important;;
+}
+@layer utilities {
+
+    .text-sm {
+        line-height: 2.5rem;
+        font-size :0.95rem ;
+    }
+    .font-medium {
+         font-weight: 1000;
+     }
+    .text-gray-700 {
+        --tw-text-opacity: 1;
+        color: rgb(255, 255, 255);
+    }
+    .text-gray-500 {
+        --tw-text-opacity: 1;
+        color: #ccc;
+    }
+}
